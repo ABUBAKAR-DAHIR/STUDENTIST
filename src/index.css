@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import 'tailwindcss';
+@config '../tailwind.config.js';
+
+html{
+  @apply bg-s1 
+}
+
+body {
+  @apply font-poppins text-[16px] tracking-[-0.03em] text-p1 ;
+}
+
+a {
+  @apply no-underline;
+}
+
+img {
+  @apply block max-w-full;
+}
+
+button {
+  @apply bg-none tracking-[-0.03em];
+}
+
+input {
+  @apply tracking-[-0.03em];
+}
+
+/* Start of typography */
+.h1 {
+  @apply text-[104px] font-black leading-[84px] tracking-[-0.03em];
+}
+
+.h2 {
+  @apply text-[64px] font-black leading-[64px];
+}
+
+.h3 {
+  @apply text-[48px] font-semibold leading-[56px] tracking-[-0.02em];
+}
+
+.h4 {
+  @apply text-[40px] font-semibold leading-[52px];
+}
+
+.h5 {
+  @apply text-[32px] font-semibold leading-[40px];
+}
+
+.h6 {
+  @apply text-[24px] font-medium leading-[36px];
+}
+
+.body-1 {
+  @apply text-[22px] leading-[36px] text-p2;
+}
+
+.logo{
+  @apply text-green-800
+}
+
+/* end of typography */
+
+/* start of navbar */
+.nav-li{
+  @apply capitalize tracking-normal ml-2 cursor-pointer hover:text-p3 transition-colors duration-500 
+}
+.nav-active{
+  @apply text-red-400
+}
+/* end of navbar */
+
+/* start of Hero */
+
+/* .glow{
+  @apply before:absolute before:top-1/4 before:left-0 before:bg-white before:content-[''] before:opacity-0 group-hover:before:top-10 group-hover:before:left-full transition-all duration-500 group-hover:opacity-40
+} */
+
+.glow {
+  @apply relative;
+}
+
+.glow::before {
+  content: "";
+  position: absolute;
+  top: 25%;
+  left: 0;
+  width: 50%;
+  height: 40%;
+  background: white;
+  opacity: 0;
+  transition: top 0.5s ease, left 0.5s ease, opacity 0.5s ease;
+  z-index: 2;
+}
+
+.glow:hover::before {
+  top: 10px;
+  left: 40%; /* instead of 100% */
+  opacity: 0.4;
+  rotate: 90;
+}
+
+.img_resp{
+  @apply max-xl:right-10 max-lg:right-0  max-md:opacity-15
+}
+
+/* end of Hero */
+
+/* Start of Gradients */
+.g1{
+  background: linear-gradient(#E7EFBB, #D3F909);
+}
+.g2{
+  background: linear-gradient(#b4ec65, #56732E);  
+}
+
+.g3{
+  background: linear-gradient(#393939, #000000);  
+}
+.g4{
+  background: linear-gradient(#a0f2ae, #01FC2B)
+}
+.g5{
+  background: linear-gradient(to right, #242523, #252624)
+}
+
+.g6{
+  background: linear-gradient(to right, #535a41, rgb(56, 74, 33))
+}
+/* End of Gradients */
+
+/* Start of Features */
+
+.bars {
+  @apply relative w-[30px] h-0.5 bg-white transition-all duration-500;
+}
+
+.bars::before {
+  @apply absolute content-[''] -top-2 right-0 w-[20px] h-0.5 bg-white transition-all duration-500;
+}
+
+.bars::after {
+  @apply absolute content-[''] top-2 right-0 w-[40px] h-0.5 bg-white transition-all duration-500;
+}
+
+/* when menu is open */
+.bars.open {
+  @apply bg-transparent ;
+}
+
+.bars.open::before {
+  @apply w-[30px]  rotate-45 top-0;
+}
+
+.bars.open::after {
+  @apply w-[30px] -rotate-45 top-0;
+}
+
+/* End of Features */
+
+/* Start of faq */
+.faq-icon{
+  @apply before:absolute before:content-[''] before:w-3 before:h-0.5 before:bg-amber-200 after:absolute after:content-[''] after:w-3 after:h-0.5 after:bg-amber-200 
+}
+/* End of faq */
+
+/* Start of testimonials */
+.custom-control {
+  background-color: #5B7C60 !important;
+  color: white !important;
+  border-radius: 9999px;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.custom-control-prev {
+  left: -50px !important; /* move left arrow outward */
+}
+
+.custom-control-next {
+  right: -50px !important; /* move right arrow outward */
+}
+
+/* End of testimonials */
+
+/* Start of Footer */
+.head{
+  @apply font-bold uppercase text-p6 cursor-pointer max-md:mt-2
+}
+
+.head-p{
+  @apply cursor-pointer hover:underline max-md:mt-2
+}
+
+.icon{
+  @apply cursor-pointer group-hover:text-lg group-hover:text-p3 transition-all duration-50
+}
+
+.link-wrapper{
+  @apply mr-10 max-md:text-center max-md:mb-2 max-md:text-lg
+}
+
+/* .span-icon{
+  @apply size-10 hover:size-11 hover:border-p1 group transition-all duration-100 flex items-center justify-center p-2 rounded-full border-2 border-s2
+} */
+
+/* End of Footer */
