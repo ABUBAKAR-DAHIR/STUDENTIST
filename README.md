@@ -64,10 +64,26 @@ Studentist/
 │   ├── components/ # Reusable UI components
 │   │   ├── Button.jsx
 │   │   ├── FaqItem.jsx
+│   │   ├── SlideDown.jsx
+│   │   ├── SparklesCore.jsx
+│   │   ├── TestimonialItem.jsx
 │   │   └── FeatureItem.jsx
 │   │
 │   ├── constants/ # Static data for sections (features, faqs, etc.)
+│   │   ├── CompaniesConstants.jsx
+│   │   ├── FeaturesConstants.jsx
+│   │   ├── FaqConstants.jsx
+│   │   └── TestimonialConstants.jsx
+        
 │   ├── sections/ # Main sections (Hero, Features, FAQ, Testimonials, Contact, Footer)
+│   │   ├── Header.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Features.jsx
+│   │   ├── Faq.jsx
+│   │   ├── Testimonials.jsx
+│   │   ├── Companies.jsx
+│   │   ├── Contact.jsx
+│   │   └── Footer.jsx
 │   ├── App.jsx # Main app file combining all sections
 │   └── main.jsx # React entry point (Vite)
 │
