@@ -7,7 +7,7 @@ export default function Footer() {
     <section className='mt-10 pt-10 container mx-auto'>
         <div className='relative py-8 pb-20 overflow-clip pt-10 px-40 max-lg:px-10 g6 border-2 border-s7 rounded-4xl mx-auto flex lg:min-h-[300px] max-lg:flex-col '>
             <div>
-                <h1 className='mb-4 max-lg:text-center cursor-pointer'> <span className=' rounded-full border-2 border-s1 p-2 mr-2'><Zap className='inline' color='yellow'/></span>  <span className='text-xl'>Studentist</span></h1>
+                <h1 className='mb-6 max-lg:text-center cursor-pointer'> <span className=' rounded-full border-2 border-s1 p-3 mr-2 '><Zap className='inline' color='yellow'/></span>  <span className='text-xl'>Studentist</span></h1>
                 <p className='text-[16px]'>Studentist offers a collection of ready-to-use features and tools to help you build engaging and organized educational platforms quickly and effectively.</p>
 
                 <div className='flex gap-2 mt-4 max-lg:mx-auto max-lg:justify-center '>
