@@ -146,6 +146,14 @@ This project is licensed under the **MIT License** — see the LICENSE file for 
 **Abubakar Dahir**  
 Full-Stack & Android Developer | Aspiring AI Engineer
 
+### 🧩 Development Status
+
+Hey there 👋 — this is the current **landing page** for Studentist, designed to give a quick preview of what’s coming.  
+The full Studentist web app — with account creation, note uploads, and a collaborative platform — is still in the works.
+
+**💡 Fun Fact:** I built this whole landing page and its backend from scratch in around **2 days** just for fun and to push my limits.
+
+
 ---
 
 ## 📬 Contact
