@@ -53,7 +53,7 @@ export default function Contact() {
 
   return (
     <section className='p-10'>
-        <Element name='contact' className='container mx-auto mt-25 mb-10'>
+        <Element name='contact' className='container mx-auto pt-10 mb-10'>
             <div className='g5 rounded-7xl border-2 border-s10 py-8 px-6'>
                 <div className='relative'>
                     <SparklesCore

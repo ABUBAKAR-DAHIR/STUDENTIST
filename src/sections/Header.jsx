@@ -20,7 +20,7 @@ export default function Header() {
     <Element name='header' className={clsx('fixed top-0 left-0 right-0 z-50 transition-all transform-content duration-500 ease-in-out ', scrolled ? 'bg-black-100 p-4 max-md:p-4 max-md:px-10' : 'py-14 max-md:p-10')}>
       <header className='relative flex items-center justify-center'>
         <div className='relative flex justify-around items-center md:container max-md:justify-between max-md:w-full'>
-          <img src="logo.png" alt="logo" width={200} className='z-50'/>
+          <img src="logo.png" alt="logo" width={200} className='z-50 cursor-pointer' />
           {/* <p className={clsx('logo h5 z-50 mr-10', isOpen && 'pt-2')}>Studentist</p> */}
           <div className={clsx('w-[40%] max-xl:w-[50%] max-lg:w-[70%]', isOpen ? 'max-md:absolute max-md:-top-20 max-md:-left-10 max-md:-bottom-20  max-md:min-h-screen max-md:w-[2000vw] max-md:h-[2020vh] max-md:z-10 max-md:bg-s4' : 'max-md:hidden')}>
             <ul className={clsx('flex items-center justify-between  max-md:opacity-0 z-10 text-[20px]  ', isOpen && 'max-md:opacity-100 max-md:flex-col max-md:pt-70 max-md:items-start max-md:pl-10 max-md:text-[40px] max-md:absolute max-md:top-0  items-start')}>

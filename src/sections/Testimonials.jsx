@@ -7,6 +7,7 @@ import { IconChevronLeft, IconChevronRight } from "@tabler/icons-react";
 import { testimonials } from "../constants/TestimonialsConstants";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Companies from "./Companies";
 
 export default function Testimonials() {
   const [activeSlide, setActiveSlide] = useState(0);
@@ -82,6 +83,7 @@ export default function Testimonials() {
             </MantineProvider>
           </div>
         </div>
+        <Companies />
       </Element>
     </section>
   );

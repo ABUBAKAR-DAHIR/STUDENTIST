@@ -7,7 +7,7 @@ html{
 }
 
 body {
-  @apply font-poppins text-[16px] tracking-[-0.03em] text-p1 ;
+  @apply font-poppins text-[16px] tracking-[-0.03em] text-p1 overflow-x-hidden;
 }
 
 a {
@@ -32,7 +32,7 @@ input {
 }
 
 .h2 {
-  @apply text-[64px] font-black leading-[64px];
+  @apply text-[64px] max-lg:text-[55px] font-black leading-[64px];
 }
 
 .h3 {
@@ -57,6 +57,12 @@ input {
 
 .logo{
   @apply text-green-800
+}
+.container {
+  width: 100% !important;
+  max-width: 100% !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
 }
 
 /* end of typography */
