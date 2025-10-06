@@ -145,4 +145,4 @@ Aspiring Full-Stack & Android Developer | Computer Science Enthusiast
 ## 📬 Contact
 
 - **GitHub:** [ABUBAKAR-DAHIR](https://github.com/ABUBAKAR-DAHIR)  
-- **Email:** abu112abu112abu112@gmail.com *(abu112abu112abu112@gmail.com)*
+- **Email:** [abu112abu112abu112@gmail.com](abu112abu112abu112@gmail.com)
