@@ -33,23 +33,53 @@ Studentist makes learning simple, efficient, and social — no more endless sear
 ---
 
 ## 📂 Project Structure
-
+```
 Studentist/
 │
-├── public/ # Static assets like images and icons
+├── public/ # Publicly served assets
+│   ├── companies/ # Company logos displayed in the website
+│   │   ├── amazon.png
+│   │   ├── apple.png
+│   │   ├── google.png
+│   │   ├── ibm.png
+│   │   ├── intel.png
+│   │   ├── meta.png
+│   │   ├── microsoft.png
+│   │   ├── msi.png
+│   │   ├── parul.png
+│   │   ├── samsung.png
+│   │   └── tesla.png
+│   │
+│   ├── contact/ # Assets for the Contact section
+│   │   ├── contact_logo.svg
+│   │   ├── contact.png
+│   │   └── contact.svg
+│   │
+│   ├── testimonials/ # Images used in the Testimonials section (if any)
+│   ├── hero.svg # Hero section illustration
+│   └── logo.png # App logo
+│
 ├── src/
-│ ├── assets/ # Images, icons, logos
-│ ├── components/ # Reusable UI components
-│ ├── constants/ # Constant data used in the app
-│ ├── sections/ # Page sections like Hero, Features, FAQ
-│ ├── App.jsx # Main application entry
-│ └── main.jsx # Entry point for React + Vite
-├── .gitignore
-├── package.json
-├── tailwind.config.js
-└── vite.config.js
-
+│   ├── assets/ # Additional images, icons, and graphics
+│   ├── components/ # Reusable UI components
+│   │   ├── Button.jsx
+│   │   ├── FaqItem.jsx
+│   │   └── FeatureItem.jsx
+│   │
+│   ├── constants/ # Static data for sections (features, faqs, etc.)
+│   ├── sections/ # Main sections (Hero, Features, FAQ, Testimonials, Contact, Footer)
+│   ├── App.jsx # Main app file combining all sections
+│   └── main.jsx # React entry point (Vite)
+│
+├── .gitignore # Files and folders ignored by Git
+├── index.html # Main HTML entry point
+├── package.json # Dependencies and project metadata
+├── postcss.config.js # PostCSS config for Tailwind
+├── tailwind.config.js # Tailwind CSS configuration
+├── vite.config.js # Vite configuration file
+└── README.md # Project documentation
 ---
+```
 
 ## 🎨 Live Demo
 
