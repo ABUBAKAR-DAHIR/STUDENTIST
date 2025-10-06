@@ -83,9 +83,7 @@ Studentist/
 
 ## 🎨 Live Demo
 
-Coming soon! 🚀  
-You can deploy this project using **Netlify**, **Vercel**, or **GitHub Pages**.
-
+Try it:  [Studentist](https://studentist.netlify.app/) 
 ---
 
 ## 📌 Installation & Setup
