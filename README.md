@@ -55,9 +55,15 @@ Studentist/
 │   │   ├── contact.png
 │   │   └── contact.svg
 │   │
-│   ├── testimonials/ # Images used in the Testimonials section (if any)
-│   ├── hero.svg # Hero section illustration
-│   └── logo.png # App logo
+│   ├── testimonials/ # Images used in the Testimonials section 
+│   │   ├── alicia-barker.svg
+│   │   ├── becky-snider.svg
+│   │   ├── jessica-saunders.svg
+│   │   ├── jim-bradley.svg
+│   │   ├── mark-erixon.svg
+│   │   └── melanie-hurst.svg
+│   ├── hero.svg 
+│   └── logo.png 
 │
 ├── src/
 │   ├── assets/ # Additional images, icons, and graphics
@@ -138,7 +144,7 @@ This project is licensed under the **MIT License** — see the LICENSE file for 
 ## ❤️ Author
 
 **Abubakar Dahir**  
-Aspiring Full-Stack & Android Developer | Computer Science Enthusiast
+Full-Stack & Android Developer | Aspiring AI Engineer
 
 ---
 
