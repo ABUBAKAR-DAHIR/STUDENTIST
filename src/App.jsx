@@ -10,7 +10,7 @@ import Footer from './sections/Footer'
 
 export default function App() {
   return (
-    <main className='min-w-[450px] overflow-clip'>
+    <main className='min-w-full overflow-clip'>
       <Header />
       <Hero />
       <Features />

@@ -30,7 +30,7 @@ export default function Header() {
               <NavLink title='contact us' to='contact' onClick={() => setOpen(false)}/>
             {
               isOpen && (
-                 <div className='flex fixed bottom-20 gap-2'>
+                 <div className='flex fixed bottom-20 gap-2 md:hidden'>
                     <span className='size-11 hover:size-12 hover:border-p1 group transition-all duration-100 flex items-center justify-center p-2 rounded-full border-2 border-s2'><SiGoogle className='icon' size={18}/></span>
                     <span className='size-11 hover:size-12 hover:border-p1 group transition-all duration-100 flex items-center justify-center p-2 rounded-full border-2 border-s2'><SiGithub className='icon' size={18}/></span>
                     <span className='size-11 hover:size-12 hover:border-p1 group transition-all duration-100 flex items-center justify-center p-2 rounded-full border-2 border-s2'><SiLinkedin className='icon' size={18}/></span>

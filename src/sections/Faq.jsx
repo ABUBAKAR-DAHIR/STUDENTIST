@@ -15,7 +15,7 @@ export default function Faq() {
     <section data-aos='fade-up' duration={1000}>
         <Element name='faq'>
             <div className='container mx-auto'>
-                <div className='pl-10 mt-5 pt-15'>
+                <div className='pt-20 w-3xl mx-auto'>
                     <h1 className='h3 max-w-3xl mb-4'>Asking is always the right choice</h1>
                     <h1 className='text-2xl max-w-512'>Asking questions is your right, answering it is our duty</h1>
                 </div>

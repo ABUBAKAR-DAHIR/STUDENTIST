@@ -26,7 +26,7 @@ export default function Hero() {
     Aos.init({ duration: 800 }); // animation duration in ms
   }, []);
   return (
-    <section className='pt-70 min-h-screen'>
+    <section className='pt-70 min-h-screen max-md:pt-50'>
         <Element name='hero' className='relative'>
             <div className='pl-50 max-lg:pl-30 max-md:pl-10'>
                 <h1 className='h2 max-w-xl mb-4 max-lg:max-w-lg max-md:max-w-388'>📚 All Your University Notes, One Place.</h1>
