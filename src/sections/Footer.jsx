@@ -1,6 +1,7 @@
 import { Zap } from 'lucide-react'
 import React from 'react'
 import { SiGithub, SiGoogle, SiLinkedin, SiX } from 'react-icons/si'
+import FooterButton from '../components/FooterButton'
 
 export default function Footer() {
   return (
@@ -11,10 +12,14 @@ export default function Footer() {
                 <p className='text-[16px]'>Studentist offers a collection of ready-to-use features and tools to help you build engaging and organized educational platforms quickly and effectively.</p>
 
                 <div className='flex gap-2 mt-4 max-lg:mx-auto max-lg:justify-center '>
-                    <span className='size-10 hover:size-11 hover:border-p1 group transition-all duration-100 flex items-center justify-center p-2 rounded-full border-2 border-s2'><SiGoogle className='icon'/></span>
-                    <span className='size-10 hover:size-11 hover:border-p1 group transition-all duration-100 flex items-center justify-center p-2 rounded-full border-2 border-s2'><SiGithub className='icon'/></span>
+                    <FooterButton children={<SiGoogle className='icon'/>}/>
+                    <FooterButton children={<SiGithub className='icon'/>}/>
+                    <FooterButton children={<SiLinkedin className='icon'/>}/>
+                    <FooterButton children={<SiX className='icon'/>}/>
+                    {/* <span className='size-10 hover:size-11 hover:border-p1 group transition-all duration-100 flex items-center justify-center p-2 rounded-full border-2 border-s2'><SiGoogle className='icon'/></span> */}
+                    {/* <span className='size-10 hover:size-11 hover:border-p1 group transition-all duration-100 flex items-center justify-center p-2 rounded-full border-2 border-s2'><SiGithub className='icon'/></span>
                     <span className='size-10 hover:size-11 hover:border-p1 group transition-all duration-100 flex items-center justify-center p-2 rounded-full border-2 border-s2'><SiLinkedin className='icon'/></span>
-                    <span className='size-10 hover:size-11 hover:border-p1 group transition-all duration-100 flex items-center justify-center p-2 rounded-full border-2 border-s2'><SiX className='icon'/></span>
+                    <span className='size-10 hover:size-11 hover:border-p1 group transition-all duration-100 flex items-center justify-center p-2 rounded-full border-2 border-s2'><SiX className='icon'/></span> */}
                 </div>
             </div>
             <div className='w-[15%] max-lg:hidden'/>
