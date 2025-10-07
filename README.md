@@ -153,6 +153,8 @@ The full Studentist web app — with account creation, note uploads, and a colla
 
 **💡 Fun Fact:** I built this whole landing page and its backend from scratch in around **2 days** just for fun and to push my limits.
 
+## NOTE
+The repo for the backend of this project is: https://github.com/ABUBAKAR-DAHIR/STUDENTIST_BACKEND
 
 ---
 
