@@ -24,7 +24,7 @@ export default function FooterButton({ children }) {
           cy={size / 2}
           r={r}
           fill="none"
-          stroke="#F1F3E8"
+          stroke="#F9F509"
           strokeWidth={strokeWidth}
           strokeDasharray={c}
           strokeDashoffset={c} // ensures it starts fully hidden

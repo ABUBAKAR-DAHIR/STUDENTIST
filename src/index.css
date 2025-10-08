@@ -133,6 +133,10 @@ input {
 .g6{
   background: linear-gradient(to right, #535a41, rgb(56, 74, 33))
 }
+
+.g7{
+  background: linear-gradient(to right,rgb(56, 74, 33), #535a41, rgb(56, 74, 33))
+}
 /* End of Gradients */
 
 /* Start of Features */
@@ -207,7 +211,7 @@ input {
 }
 
 .link-wrapper{
-  @apply mr-10 max-md:text-center max-md:mb-2 max-md:text-lg
+  @apply mr-10 max-md:text-center max-md:mb-2 max-md:text-lg max-md:mx-auto
 }
 
 /* .span-icon{

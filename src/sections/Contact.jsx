@@ -18,6 +18,15 @@ export default function Contact() {
     const [message, setMessage] = useState("")
     const [responseMsg, setResponseMsg] = useState("")
 
+    useEffect(()=>{
+        if(responseMsg) {
+            let timer = setTimeout(() => {
+                responseMsg && setResponseMsg("")
+            }, 3000);
+    
+            return () => clearTimeout(timer)
+        }
+    }, [responseMsg])
 
     const handleSubmit = async (e) => {
         console.log("submitted before")
@@ -52,9 +61,9 @@ export default function Contact() {
     }
 
   return (
-    <section className='p-10'>
-        <Element name='contact' className='container mx-auto pt-10 mb-10'>
-            <div className='g5 rounded-7xl border-2 border-s10 py-8 px-6'>
+    <section className='p-10 max-[550px]:p-2'>
+        <Element name='contact' className='container mx-auto pt-10 mb-10 '>
+            <div className='g5 rounded-7xl border-2 border-s10 py-8 px-6 max-[550px]:py-3'>
                 <div className='relative'>
                     <SparklesCore
                         particleColor="#9CECC9"

@@ -20,6 +20,7 @@ export default {
                 s8: '#023B0B',
                 s9: '#F8F9F8',
                 s10: '#8D8E8E',
+                s11: '#394A39',
                 black: {
                     DEFAULT: '#000000',
                     100: '#1B1C0A',
